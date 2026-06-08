@@ -1,0 +1,9 @@
+{
+  "name": "atividadex-ftcca",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "benchmark": "node scripts/run_sort_benchmarks.mjs"
+  }
+}

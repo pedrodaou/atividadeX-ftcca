@@ -1,0 +1,324 @@
+{
+  "generatedAt": "2026-06-08T00:40:43.970Z",
+  "runsPerCase": 3,
+  "timeoutSeconds": 300,
+  "vectorSeed": 1592598566,
+  "quickPivotSeed": 3235782694,
+  "note": "Para cada tamanho, o mesmo vetor original pseudoaleatorio foi usado como entrada de todos os algoritmos.",
+  "environment": {
+    "language": "JavaScript (Node.js v24.14.0)",
+    "operatingSystem": "Windows 11 Pro (10.0.26200, x64)",
+    "processor": "13th Gen Intel(R) Core(TM) i7-13620H",
+    "memoryRam": "15.71 GB"
+  },
+  "algorithms": [
+    {
+      "name": "Selection Sort",
+      "averageComplexity": "O(n^2)",
+      "worstComplexity": "O(n^2)",
+      "operationLabel": "trocas"
+    },
+    {
+      "name": "Merge Sort",
+      "averageComplexity": "O(n log n)",
+      "worstComplexity": "O(n log n)",
+      "operationLabel": "movimentacoes/escritas"
+    },
+    {
+      "name": "Quick Sort",
+      "averageComplexity": "O(n log n)",
+      "worstComplexity": "O(n^2)",
+      "operationLabel": "trocas"
+    }
+  ],
+  "results": [
+    {
+      "algorithm": "Selection Sort",
+      "averageComplexity": "O(n^2)",
+      "worstComplexity": "O(n^2)",
+      "operationLabel": "trocas",
+      "size": 1000,
+      "runs": [
+        {
+          "run": 1,
+          "timeSeconds": 0.005528,
+          "operations": 993,
+          "timeout": false
+        },
+        {
+          "run": 2,
+          "timeSeconds": 0.001002,
+          "operations": 993,
+          "timeout": false
+        },
+        {
+          "run": 3,
+          "timeSeconds": 0.000912,
+          "operations": 993,
+          "timeout": false
+        }
+      ],
+      "summary": {
+        "averageTimeSeconds": 0.002480666666666667,
+        "standardDeviationSeconds": 0.002639451710740951,
+        "averageOperations": 993
+      }
+    },
+    {
+      "algorithm": "Merge Sort",
+      "averageComplexity": "O(n log n)",
+      "worstComplexity": "O(n log n)",
+      "operationLabel": "movimentacoes/escritas",
+      "size": 1000,
+      "runs": [
+        {
+          "run": 1,
+          "timeSeconds": 0.000523,
+          "operations": 10000,
+          "timeout": false
+        },
+        {
+          "run": 2,
+          "timeSeconds": 0.000273,
+          "operations": 10000,
+          "timeout": false
+        },
+        {
+          "run": 3,
+          "timeSeconds": 0.000218,
+          "operations": 10000,
+          "timeout": false
+        }
+      ],
+      "summary": {
+        "averageTimeSeconds": 0.00033800000000000003,
+        "standardDeviationSeconds": 0.00016255768207008858,
+        "averageOperations": 10000
+      }
+    },
+    {
+      "algorithm": "Quick Sort",
+      "averageComplexity": "O(n log n)",
+      "worstComplexity": "O(n^2)",
+      "operationLabel": "trocas",
+      "size": 1000,
+      "runs": [
+        {
+          "run": 1,
+          "timeSeconds": 0.001324,
+          "operations": 4623,
+          "timeout": false
+        },
+        {
+          "run": 2,
+          "timeSeconds": 0.000591,
+          "operations": 4623,
+          "timeout": false
+        },
+        {
+          "run": 3,
+          "timeSeconds": 0.000916,
+          "operations": 4623,
+          "timeout": false
+        }
+      ],
+      "summary": {
+        "averageTimeSeconds": 0.0009436666666666668,
+        "standardDeviationSeconds": 0.0003672823618598276,
+        "averageOperations": 4623
+      }
+    },
+    {
+      "algorithm": "Selection Sort",
+      "averageComplexity": "O(n^2)",
+      "worstComplexity": "O(n^2)",
+      "operationLabel": "trocas",
+      "size": 10000,
+      "runs": [
+        {
+          "run": 1,
+          "timeSeconds": 0.095091,
+          "operations": 9983,
+          "timeout": false
+        },
+        {
+          "run": 2,
+          "timeSeconds": 0.075918,
+          "operations": 9983,
+          "timeout": false
+        },
+        {
+          "run": 3,
+          "timeSeconds": 0.073297,
+          "operations": 9983,
+          "timeout": false
+        }
+      ],
+      "summary": {
+        "averageTimeSeconds": 0.08143533333333333,
+        "standardDeviationSeconds": 0.011898543370233739,
+        "averageOperations": 9983
+      }
+    },
+    {
+      "algorithm": "Merge Sort",
+      "averageComplexity": "O(n log n)",
+      "worstComplexity": "O(n log n)",
+      "operationLabel": "movimentacoes/escritas",
+      "size": 10000,
+      "runs": [
+        {
+          "run": 1,
+          "timeSeconds": 0.001396,
+          "operations": 140000,
+          "timeout": false
+        },
+        {
+          "run": 2,
+          "timeSeconds": 0.001707,
+          "operations": 140000,
+          "timeout": false
+        },
+        {
+          "run": 3,
+          "timeSeconds": 0.001507,
+          "operations": 140000,
+          "timeout": false
+        }
+      ],
+      "summary": {
+        "averageTimeSeconds": 0.0015366666666666664,
+        "standardDeviationSeconds": 0.00015760816391714394,
+        "averageOperations": 140000
+      }
+    },
+    {
+      "algorithm": "Quick Sort",
+      "averageComplexity": "O(n log n)",
+      "worstComplexity": "O(n^2)",
+      "operationLabel": "trocas",
+      "size": 10000,
+      "runs": [
+        {
+          "run": 1,
+          "timeSeconds": 0.00229,
+          "operations": 69063,
+          "timeout": false
+        },
+        {
+          "run": 2,
+          "timeSeconds": 0.002563,
+          "operations": 69063,
+          "timeout": false
+        },
+        {
+          "run": 3,
+          "timeSeconds": 0.001898,
+          "operations": 69063,
+          "timeout": false
+        }
+      ],
+      "summary": {
+        "averageTimeSeconds": 0.0022503333333333334,
+        "standardDeviationSeconds": 0.00033426985106846445,
+        "averageOperations": 69063
+      }
+    },
+    {
+      "algorithm": "Selection Sort",
+      "averageComplexity": "O(n^2)",
+      "worstComplexity": "O(n^2)",
+      "operationLabel": "trocas",
+      "size": 100000,
+      "runs": [
+        {
+          "run": 1,
+          "timeSeconds": 6.819774,
+          "operations": 99982,
+          "timeout": false
+        },
+        {
+          "run": 2,
+          "timeSeconds": 6.658477,
+          "operations": 99982,
+          "timeout": false
+        },
+        {
+          "run": 3,
+          "timeSeconds": 6.816766,
+          "operations": 99982,
+          "timeout": false
+        }
+      ],
+      "summary": {
+        "averageTimeSeconds": 6.765005666666667,
+        "standardDeviationSeconds": 0.09226879013151355,
+        "averageOperations": 99982
+      }
+    },
+    {
+      "algorithm": "Merge Sort",
+      "averageComplexity": "O(n log n)",
+      "worstComplexity": "O(n log n)",
+      "operationLabel": "movimentacoes/escritas",
+      "size": 100000,
+      "runs": [
+        {
+          "run": 1,
+          "timeSeconds": 0.018317,
+          "operations": 1700000,
+          "timeout": false
+        },
+        {
+          "run": 2,
+          "timeSeconds": 0.018337,
+          "operations": 1700000,
+          "timeout": false
+        },
+        {
+          "run": 3,
+          "timeSeconds": 0.019326,
+          "operations": 1700000,
+          "timeout": false
+        }
+      ],
+      "summary": {
+        "averageTimeSeconds": 0.01866,
+        "standardDeviationSeconds": 0.000576859601636308,
+        "averageOperations": 1700000
+      }
+    },
+    {
+      "algorithm": "Quick Sort",
+      "averageComplexity": "O(n log n)",
+      "worstComplexity": "O(n^2)",
+      "operationLabel": "trocas",
+      "size": 100000,
+      "runs": [
+        {
+          "run": 1,
+          "timeSeconds": 0.017746,
+          "operations": 1076572,
+          "timeout": false
+        },
+        {
+          "run": 2,
+          "timeSeconds": 0.014267,
+          "operations": 1076572,
+          "timeout": false
+        },
+        {
+          "run": 3,
+          "timeSeconds": 0.013799,
+          "operations": 1076572,
+          "timeout": false
+        }
+      ],
+      "summary": {
+        "averageTimeSeconds": 0.015270666666666667,
+        "standardDeviationSeconds": 0.002156435098335523,
+        "averageOperations": 1076572
+      }
+    }
+  ]
+}
